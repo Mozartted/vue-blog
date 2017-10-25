@@ -91,7 +91,7 @@ var actions = {
 		commit(LOGIN_SUCCESS);
 	},
 	getUserDetails:function({commit}){
-		window.axios.get('http://localhost:3000/api/v1/user').then(res=>{
+		window.axios.get('/api/v1/user').then(res=>{
 			console.log(res);
 			commit(SET_USER,res.data);
 		});
