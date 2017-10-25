@@ -11,7 +11,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="{{mix('css/app.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{asset('css/beagle.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="./css/beagle.min.css">
         {{-- <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap-vue.css')}}"> --}}
         <link rel="stylesheet" href="//cdn.jsdelivr.net/medium-editor/latest/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8">
         <meta charset="utf-8">
