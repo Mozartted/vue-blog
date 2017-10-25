@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a target="_blank" href="/home" class="navbar-brand inner-nav--head-a">Simple Blog</a>
+            <a target="_blank" href="/" class="navbar-brand inner-nav--head-a">Simple Blog</a>
         </div>
         <div class="collapse navbar-collapse ">
             <form class="navbar-form form-inline" style="float: left;">
@@ -22,6 +22,9 @@
               <li class="nav-item"><router-link v-bind:to="'signup'">Sign</router-link></li>
             </ul>
             <ul v-else class="nav navbar-nav navbar-right " style="padding:13px;">
+              <li class="nav-item dq--nav dq--text-s">
+                <router-link v-bind:to="'/'">Home</router-link>
+              </li>
               <li class="nav-item dq--nav dq--text-s">
                 <router-link v-bind:to="'/admin/articles'">Admin</router-link>
               </li>
